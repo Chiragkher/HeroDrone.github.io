@@ -1,0 +1,450 @@
+
+/* @import url('https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+* { 
+    box-sizing: border-box; 
+}
+.container  {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+
+.clearfix:before,.clearfix:after {
+    content:'';
+    width:100%;
+    display:table;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* Global css============================== */
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.centered {
+    margin: 0 auto;
+}
+.w25 {
+    width: 25%;
+}
+.w33 {
+    width:33.33%;
+}
+.w50 {
+    width: 50%;
+}
+.w66 {
+    width: 66.66%;
+}
+.w75 {
+    width: 75%;
+}
+.w100 {
+    width: 100%;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+
+.m-15{
+    margin: 0 -15px;
+}
+.ml{
+    margin-left: -15px;
+}
+.mr{
+    margin-right: -15px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.mb30 {
+    margin-bottom: 30px;
+}
+.pl10,.plr10 {
+    padding-left: 10px;
+}
+.pr10,.plr10 {
+    padding-right: 10px;
+}
+.pl15,.plr15 {
+    padding-left: 15px;
+}
+.pr15,.plr15 {
+    padding-right: 15px;
+}
+.dis-in{
+    display: inline-block;
+    margin-right: -4px;
+}
+a{
+    display: inline-block;
+   
+}
+.center{
+    text-align: center;
+}
+.m0{
+    margin: 0;
+}
+.m0auto{
+    margin: 0 auto;
+}
+.small-para{
+    font-size: 18px;
+line-height: 27px;
+color: #cfcfcf;
+font-weight: 400;
+font-family: "Montserrat";
+}
+
+h1{
+    font-size: 48px;
+line-height: 57px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+}
+h2{
+    font-size: 34px;
+line-height: 57px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Montserrat";
+}
+h3{
+    font-size: 22px;
+line-height: 33px;
+color: #fefefe;
+font-weight: 600;
+font-family: "Montserrat";
+}
+.blcolor{
+    color: #212121;
+}
+/* Global css ends================================= */
+
+.Section1{
+    padding-top: 112px;
+    padding-bottom: 26px;
+    background-image: url("../assest/images/Banner.png");
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+.sec1-content{
+    padding-bottom: 450px;
+}
+.sec1-h1{
+    margin-bottom: 7px;
+}
+.sec1-h2{
+    margin-bottom: 24px;
+}
+
+.button a {
+    text-decoration: none;
+    font-family: "Montserrat";
+    padding: 11px 26px;
+    border: none;
+    border-radius: 19px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 600;  
+    /* text-align: center; */
+    background-color: #0b53ac;
+}
+.sec1-para{
+    letter-spacing: 0.2px;
+    font-size: 18px;
+line-height: 57px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Montserrat";
+}
+.vector-icon{
+    padding-left: 47px;
+    padding-right: 47px;
+}
+.vector-icon p{
+    padding-top: 11px;
+}
+.vector-icon .vlast{
+    padding-top: 0px;
+}
+.vec-img2{
+    padding-bottom: 2px;
+}
+.Section1>.container>.sec1-bottom>.vicon-4{
+    padding-left: 45px;
+}
+/* Section 2 start================================== */
+.section2{
+   background-image:url("../assest/images/Rectangl123.png");
+    padding-top: 142px;
+    padding-bottom: 179px;
+    background-repeat: no-repeat;
+    background-position: center center; 
+   
+   
+}
+.about-content{
+    padding-left: 70px;
+    padding-bottom: 233px;
+}
+.sec2-h2{
+    padding-bottom: 14px;
+}
+.sec2-para{
+    padding-left: 2px;
+    max-width: 688px;
+    width: 100%;
+}
+span{
+    color: #0b53ac;
+}
+
+
+.part2-h2{
+    padding-bottom: 20px;
+}
+.second-part{
+    padding-bottom: 50px;
+}
+/* first row left side content */
+/* before after starts */
+.top-leftcontent::before{
+    content: '';
+    border: 1px solid #0b53ac;
+    position: absolute;
+    width: 0px;
+    height: 270px;
+    left: 38%;
+    top: 6%;
+   
+}
+.top-leftcontent::after{
+    content: '';
+    border: 1px solid #0b53ac;
+    position: absolute;
+    max-width: 269px;
+    width: 100%;
+    height: 0px;
+    left: 15%;
+    top: 6%;
+   
+}
+/* right one */
+.top-rightcontent::after{
+    content: '';
+    border: 1px solid #0b53ac;
+    position: absolute;
+    width: 0px;
+    height: 270px;
+    right: 38.5%;
+    top: 6%;
+}
+.top-rightcontent::before{
+    content: '';
+    border: 1px solid #0b53ac;
+    position: absolute;
+    max-width: 274px;
+    width: 100%;
+    height: 0px;
+    right: 15%;
+    top: 6%;
+}
+
+
+/* end before after */
+.left-content{
+    padding-left: 33px;
+    padding-top: 21px;
+}
+.main-wrapcontent{
+    padding-top: 73px;
+}
+
+.l-para{
+    max-width: 287px;
+    width: 100%;
+    padding-left: 2px;
+}
+.letf-h3{
+    padding-bottom: 7px;
+}
+.main-wrapcontent{
+    position: relative;
+}
+.boximage{
+    position: absolute;
+    top: 5%;
+}
+/* first row right side content */
+.right-h3{
+ padding-bottom: 7px;
+}
+.right-content{
+    max-width: 340px;
+    width: 100%;
+    padding-right: 28px;
+}
+.box-img2{
+    top: 5%;
+    right: 0;
+}
+/* middle part */
+.middle-part{
+    position: relative;
+}
+.circleimg {
+    padding-top: 47px;
+
+}
+.dronimg{
+    position: absolute;
+    top: 29.5%;
+    left: 22%;
+
+}
+/* third part start */
+.main-third-content{
+    position: relative;
+    padding-top: 37px;
+}
+/* for bottom side */
+.top-leftcontent1::after{
+    content: '';
+    border: 1px solid #0b53ac;
+    position: absolute;
+    width: 0px;
+    height: 270px;
+    right: 38.5%;
+    bottom: -27%;
+   
+}
+.top-leftcontent1::before{
+    content: '';
+    border: 1px solid #0b53ac;
+    position: absolute;
+    max-width: 269px;
+    width: 100%;
+    height: 0px;
+    right: 15%;
+    bottom: -27%;
+   
+}
+.top-rightcontent1::after{
+    content: '';
+    border: 1px solid #0b53ac;
+    position: absolute;
+    width: 0px;
+    height: 270px;
+    left: 38%;
+    top: -51%;
+}
+.top-rightcontent1::before{
+    content: '';
+    border: 1px solid #0b53ac;
+    position: absolute;
+    max-width: 268px;
+    width: 100%;
+    height: 0px;
+    left: 15%;
+    bottom: -27%;
+}
+
+.third-box{
+    position: absolute;
+    top: 6%;
+}
+.bottom-right{
+    padding-top: 16px;
+}
+/* section3 start ========================== */
+.section3{
+    padding-top: 135px;
+    position: relative;
+
+}
+.sec3-h2{
+    padding-bottom: 22px;
+}
+.sec3-h2 h2{
+    letter-spacing: 0.25px;
+}
+.sec3-para{
+    padding-bottom: 35px;
+}
+
+.imgdrone {
+    position: absolute;
+    top: 127%;
+    right: 11%;
+}
+.blue
+{
+   position: absolute;
+   top: 210%;
+   z-index: -1;
+
+}
+.button a:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
+.dronimg img{
+    /* transform: scale(1.); */
+    transition: ease-in   0.8s;
+}
+.dronimg img:hover{
+    transform: scale(0.01);
+    transition:  ease-out   1s;
+}
+
+.circleimg img {
+    animation: rotation 3s infinite linear;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .boximage img:hover{
+      transform: scale(1.1);
+      transition: 0.5s;
+  }
